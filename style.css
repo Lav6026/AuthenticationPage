@@ -1,0 +1,97 @@
+/* style.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Signup page styles */
+  .signup-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #signup-form input,
+  #signup-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  #signup-form button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #signup-form button:hover {
+    background-color: #45a049;
+  }
+  
+  #signup-message {
+    text-align: center;
+    margin-top: 15px;
+    color: #4caf50;
+  }
+  
+  /* Profile page styles */
+  .profile-container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-container div {
+    margin-bottom: 20px;
+  }
+  
+  #logout {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #logout:hover {
+    background-color: #d32f2f;
+  }
+  
